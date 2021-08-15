@@ -1,0 +1,40 @@
+Pembuatan Jadwal Pembalajaran
+
+*Tampilan utama admin  -> Template / Boostrap 
+-Dashboard
+-Management Data Guru
+-Management Data Siswa
+-Management Data Mapel
+-Management Data Kelas
+-Management Penjadwalan
+-Manegement Laporan
+-dan Lain-lain.
+
+Membuat database Pembelajaran -> create database Pembelajaran;
+- Membuat Tabel Data Guru
+	create table data_guru(
+
+- Membuat Tabel Data Siswa
+	create table data_siswa(
+	No int not null auto_increment,
+	NIM varchar(20),
+	Nama varchar(150));
+
+- Membuat Tabel Data Mapel
+	create table data_mapel(
+	
+- Membuat Tabel Data Kelas
+	create table data_kelas(
+	No int not null auto_increment,
+	kelas varchar(20),
+	Kode_kelas varchar(150));
+
+- Membuat Tabel Penjadwalan
+	create table penjadwalan(
+
+- Membuat Tabel Laporan
+	create table laporan(
+	
+
+
+
