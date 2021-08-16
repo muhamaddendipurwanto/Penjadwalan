@@ -3,12 +3,54 @@ Pembuatan Jadwal Pembalajaran
 *Tampilan utama admin  -> Template / Boostrap 
 -Dashboard
 -Management Data Guru
+Table Data Guru : + Tambah Data
+	- Kode 
+	- NIP
+	- Nama Guru
+	- Jenis Kelamin
+	- Alamat Tinggal
+	- No. Hp
+	- Status Aktip
+	- Tool (Edit dan Delete)
+
 -Management Data Siswa
+Table Data Siswa : + Tambah Data
+	- No
+	- NIS
+	- Kelas
+	- Jenis Kelamin
+	- Nama Orang Tua
+	- Alamat Tinggal
+	- Agama
+	- No. Hp
+	- Tools (Edit dan Delete)
+	
 -Management Data Mapel
+Table Data Mapel : + Tambah Data	
+	- No
+	- Kode 
+	- Nama Pelajaran
+	- Tools (Edit dan Delete)
+
 -Management Data Kelas
+	
+
 -Management Penjadwalan
+Table Data Mapel : + Tambah Data
+	- No
+	- Kode Jadwal
+	- Kode Guru
+	- Nama Guru
+	- Mata Pelajaran
+	- Kelas
+	- ID Hari
+	- Jam
+	- Tools (Edit dan Delete)
+
 -Manegement Laporan
--dan Lain-lain.
+Next
+
+
 
 Membuat database Pembelajaran -> create database Pembelajaran;
 - Membuat Tabel Data Guru
