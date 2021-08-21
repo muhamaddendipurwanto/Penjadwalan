@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 21, 2021 at 06:17 AM
+-- Generation Time: Aug 21, 2021 at 06:26 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 8.0.9
 
@@ -82,6 +82,18 @@ CREATE TABLE `data_siswa` (
   `Hp` varchar(13) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `No` int(11) NOT NULL,
+  `username` varchar(20) DEFAULT NULL,
+  `password` varchar(225) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 --
 -- Indexes for dumped tables
 --
@@ -111,6 +123,12 @@ ALTER TABLE `data_siswa`
   ADD PRIMARY KEY (`No`);
 
 --
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`No`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -136,6 +154,12 @@ ALTER TABLE `data_mapel`
 -- AUTO_INCREMENT for table `data_siswa`
 --
 ALTER TABLE `data_siswa`
+  MODIFY `No` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
   MODIFY `No` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
